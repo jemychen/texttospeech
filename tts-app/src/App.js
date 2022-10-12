@@ -44,8 +44,14 @@ speechBtn.addEventListener('click', (e) => {
                 isSpeaking = true
                 speechBtn.innerHTML = 'Resume Speech'
             }
+            setInterval(() => {
+                if (!synth.speaking && !isSpeaking) {
+                    isSpeaking = true
+                    speechBtn. innerHTML = 'Convert to Speech'
+                }
+            })
+        } else {
+            speechBtn.innerHTML = 'Convert to Speech'
         }
     }
 })
-
-export default App;
