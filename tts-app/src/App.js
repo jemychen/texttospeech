@@ -28,6 +28,13 @@ function textToSpeech(text) {
     speechSynthesis.speak(utternance)
 }
 
-
+speechBtn.addEventListener('click', (e) => {
+    e.preventDefault()
+    if (textArea.value != '') {
+        if (!synth.speaking) {
+            textToSpeech(textArea.value)
+        }
+    }
+})
 
 export default App;
