@@ -9,3 +9,10 @@ main {
     align-items: center;
     flex-direction: column;
 }
+
+.title {
+    font-size: 2rem;
+    font-family: aerial, helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(48, 48, 48);
+}
