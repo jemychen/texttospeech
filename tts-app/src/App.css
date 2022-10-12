@@ -31,3 +31,12 @@ main {
     color: rgb(36, 36, 36);
     align-self: start;
 }
+
+#text { 
+    height: 7rem;
+    width: 20rem;
+    border: none;
+    outline: 2px solid rgba(128, 128, 128, 0.623);
+    border-radius: 0.5rem;
+    resize: none;
+}
