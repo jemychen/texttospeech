@@ -68,3 +68,12 @@ main {
     padding: 0px 10px;
 }
 
+.submit {
+    background-color: rgba(92, 55, 225, 0.979);
+    color: white;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+    border: none;
+}
